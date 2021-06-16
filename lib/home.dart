@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
         letIndexChange: (index) => true,
       ),
       body: children[_page],
-      backgroundColor: Color.fromRGBO(48, 57, 66, 1),
+      backgroundColor: Color.fromRGBO(46, 57, 66, 1),
     );
   }
 }
