@@ -189,12 +189,12 @@ class _CallPageState extends State<CallPage> {
             onPressed: _onToggleMute,
             child: Icon(
               muted ? Icons.mic_off : Icons.mic,
-              color: muted ? Colors.white : Color.fromRGBO(254, 137, 58, 1),
+              color: muted ? Colors.white : Color.fromRGBO(48, 57, 66, 1),
               size: 20.0,
             ),
             shape: CircleBorder(),
             elevation: 2.0,
-            fillColor: muted ? Color.fromRGBO(254, 137, 58, 1) : Colors.white,
+            fillColor: muted ? Color.fromRGBO(48, 57, 66, 1) : Colors.white,
             padding: const EdgeInsets.all(12.0),
           ),
           RawMaterialButton(
@@ -206,14 +206,14 @@ class _CallPageState extends State<CallPage> {
             ),
             shape: CircleBorder(),
             elevation: 2.0,
-            fillColor: Colors.redAccent,
+            fillColor: Color.fromRGBO(254, 137, 58, 1),
             padding: const EdgeInsets.all(15.0),
           ),
           RawMaterialButton(
             onPressed: _onSwitchCamera,
             child: Icon(
               Icons.switch_camera,
-              color: Color.fromRGBO(254, 137, 58, 1),
+              color: Color.fromRGBO(48, 57, 66, 1),
               size: 20.0,
             ),
             shape: CircleBorder(),

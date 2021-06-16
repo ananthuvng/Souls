@@ -14,26 +14,6 @@ class Create extends StatefulWidget {
 }
 
 class _CreateState extends State<Create> {
-  List<TokenGen> content = [
-    TokenGen(
-      channel: 'abcd',
-      Token:
-          '006f15a1b2a31434974bc7f38b26a83a990IACHRlTf0OBkAbld3Wy6EeijVGIZQsBYHUZ8V4jgejKeUxHNgu0AAAAAEACbQyLuqnG8YAEAAQCqcbxg',
-      flag: false,
-    ),
-    TokenGen(
-      channel: 'abcde',
-      Token:
-          '006f15a1b2a31434974bc7f38b26a83a990IAC0bdVTyMLxlMzWpmHNYZzV9d5yMFniEtVvjzb1TttV5WXYh4UAAAAAEACbQyLuV3K8YAEAAQBYcrxg',
-      flag: false,
-    ),
-    TokenGen(
-      channel: 'abcdef',
-      Token:
-          '006f15a1b2a31434974bc7f38b26a83a990IACHRlTf0OBkAbld3Wy6EeijVGIZQsBYHUZ8V4jgejKeUxHNgu0AAAAAEACbQyLuqnG8YAEAAQCqcbxg',
-      flag: false,
-    ),
-  ];
   ClientRole _role = ClientRole.Broadcaster;
   String videocat;
   String descri;
@@ -122,7 +102,7 @@ class _CreateState extends State<Create> {
                           onTap: () async {
                             onJoin(
                                 'abcdef',
-                                '006f15a1b2a31434974bc7f38b26a83a990IADv3tQBa4OC0d9LfSSr7J9gkmsq+DaLwJKbg538TqkcAu85jksAAAAAEACbQyLucnK8YAEAAQBycrxg',
+                                '006f15a1b2a31434974bc7f38b26a83a990IAD/KKWIeOrhbNxOtvsFUsmgTrfHBoiA+w482wbO1rGg0+85jksAAAAAEAC8aS6K60DLYAEAAQDpQMtg',
                                 _role);
                             await DataBaseService(uid: user.uid).CreateRoom(
                                 userData.username,
@@ -130,7 +110,7 @@ class _CreateState extends State<Create> {
                                 descri,
                                 videocat,
                                 'abcdef',
-                                '006f15a1b2a31434974bc7f38b26a83a990IADv3tQBa4OC0d9LfSSr7J9gkmsq+DaLwJKbg538TqkcAu85jksAAAAAEACbQyLucnK8YAEAAQBycrxg');
+                                '006f15a1b2a31434974bc7f38b26a83a990IAD/KKWIeOrhbNxOtvsFUsmgTrfHBoiA+w482wbO1rGg0+85jksAAAAAEAC8aS6K60DLYAEAAQDpQMtg');
                           },
                           child: Container(
                               height: 40,

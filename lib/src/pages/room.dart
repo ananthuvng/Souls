@@ -65,7 +65,7 @@ class _RoomListState extends State<RoomList> {
                       Expanded(
                         flex: 6,
                         child: Text(
-                          '${rooms[arr[index]].topic}',
+                          '${rooms[arr[index]].description}',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16,
